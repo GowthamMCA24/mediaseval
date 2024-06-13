@@ -38,7 +38,7 @@ img{
     border-radius: 14px;
 }
 .image{
-       width:1350px;
+       width:100%;
        top:122px;
        left:0px;
 }          
@@ -216,13 +216,12 @@ main p{
     width:1100px;
     height: 1200px;
 }
-@media screen and (max-width:701px){
+@media screen and (max-width:1200px){
    header{  
-    margin-left:px;
-    width:100%;
+    
 } 
 .nav-bar{
-    width:100%;
+    
 }
 
  .nav-bar ul li{
@@ -233,7 +232,7 @@ main p{
  .image {
    margin:0px;
    width:100%;
-   position:relative;
+   position: static;
  }
  main h2{
     margin-top:10px;
@@ -352,25 +351,4 @@ main p{
 }
 }
 
-@media screen and (max-width:1271px)
-{
-   header{
-       width:100%;
-   }
-   .nav-bar{
-       width: 100%;
-   }
-   .nav-bar ul li a{
-   margin-left: 0px;
-   padding-left: 0px;
-   }
-   .image{
-       width: 100%;
-       position: relative;
-       margin-top:-120px;
-   }
-   main h2{
-       margin-top:120px;
-   }
-}    
-    
+
