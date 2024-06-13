@@ -233,7 +233,7 @@ main p{
  .image {
    margin:0px;
    width:100%;
-   position:static;
+   position:relative;
  }
  main h2{
     margin-top:10px;
@@ -352,25 +352,25 @@ main p{
 }
 }
 
- @media screen and (max-width:1270px)
- {
-    header{
-        margin-right: 0px;
-    }
-    .nav-bar{
-        margin-right: 0px;
-    }
-    .nav-bar ul li a{
-    margin-left: 0px;
-    padding-left: 0px;
-    }
-    .image{
-        width: 100%;
-        position: relative;
-        top:0px;
-    }
-    main h2{
-        margin-top:70px;
-    }
+@media screen and (max-width:1271px)
+{
+   header{
+       width:100%;
+   }
+   .nav-bar{
+       width: 100%;
+   }
+   .nav-bar ul li a{
+   margin-left: 0px;
+   padding-left: 0px;
+   }
+   .image{
+       width: 100%;
+       position: relative;
+       margin-top:-120px;
+   }
+   main h2{
+       margin-top:120px;
+   }
 }    
     
